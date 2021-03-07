@@ -111,7 +111,7 @@
               label="COM_MODULES_FIELD_CACHING_LABEL"
               description="COM_MODULES_FIELD_CACHING_DESC"
               default=""
-              filter=""
+              
                >
           <option></option>
           <option></option>
