@@ -1,8 +1,9 @@
 <?php
   /**
-  *  @package
-  *  @subpackage
+  * @package
+  * @subpackage
   *
+  * @copyright
   *
   */
 ?>
