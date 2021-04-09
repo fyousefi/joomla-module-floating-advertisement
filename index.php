@@ -4,6 +4,6 @@
   * @subpackage
   *
   * @copyright
-  *
+  * @license
   */
 ?>
