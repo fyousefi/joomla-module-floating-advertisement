@@ -8,5 +8,5 @@
   */
 
 defined('_JEXEC') or die;
-
+$data = array();
 ?>
