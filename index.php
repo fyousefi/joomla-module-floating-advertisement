@@ -10,5 +10,6 @@
 defined('_JEXEC') or die;
 $data = array();
 if($params->def('prepare_content', 1)){
+  JPluginHelper::importPlugin('content');
 }
 ?>
