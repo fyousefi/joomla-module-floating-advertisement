@@ -9,6 +9,6 @@
 
 defined('_JEXEC') or die;
 $data = array();
-if(){
+if($params->def('prepare_content', 1)){
 }
 ?>
