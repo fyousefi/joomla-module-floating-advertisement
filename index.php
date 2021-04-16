@@ -13,4 +13,7 @@ if($params->def('prepare_content', 1)){
   JPluginHelper::importPlugin('content');
   $module->content = JHtml::_('content.prepare', $module->content, '', 'mod_floating_ad.content');
 }
+
+if(){
+}
 ?>
