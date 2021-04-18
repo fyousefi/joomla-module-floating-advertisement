@@ -14,6 +14,6 @@ if($params->def('prepare_content', 1)){
   $module->content = JHtml::_('content.prepare', $module->content, '', 'mod_floating_ad.content');
 }
 
-if(){
+if($params->get('banner_script')){
 }
 ?>
