@@ -17,4 +17,7 @@ if($params->def('prepare_content', 1)){
 if($params->get('banner_script')){
   $data[0][ 'script' ] = $params->get('banner_script');
 }
+
+if(){
+}
 ?>
