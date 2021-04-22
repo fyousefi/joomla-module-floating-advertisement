@@ -21,4 +21,7 @@ if($params->get('banner_script')){
 if($params->get('banner_image')){
   $data[0][ 'image' ] = $params->get('banner_image');
 }
+
+if(){
+}
 ?>
