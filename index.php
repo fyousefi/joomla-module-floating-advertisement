@@ -23,5 +23,6 @@ if($params->get('banner_image')){
 }
 
 if($params->get('banner_link')){
+  $data[0][ 'link' ] = $params->get('banner_link');
 }
 ?>
