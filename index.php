@@ -26,6 +26,6 @@ if($params->get('banner_link')){
   $data[0][ 'link' ] = $params->get('banner_link');
 }
 
-if(){
+if($params->get('device_type')){
 }
 ?>
