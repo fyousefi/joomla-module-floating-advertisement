@@ -30,6 +30,6 @@ if($params->get('device_type')){
   $data[0][ 'device' ] = $params->get('device_type');
 }
 
-$moduleclass_sfx = htmlspecialchars();
+$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 
 ?>
