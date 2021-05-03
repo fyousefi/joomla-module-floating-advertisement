@@ -32,4 +32,5 @@ if($params->get('device_type')){
 
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8'));
 
+require JModuleHelper::getLayoutPath();
 ?>
