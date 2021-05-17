@@ -2,4 +2,5 @@
 <extension type="module" version="3.1" client="site" method="upgrade">
   <name></name>
   <author></author>
+  <creationDate></creationDate>
 </extension>
