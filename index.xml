@@ -106,12 +106,12 @@
         />
         
         <field
-              name="cache"
-              type="list"
-              label="COM_MODULES_FIELD_CACHING_LABEL"
-              description="COM_MODULES_FIELD_CACHING_DESC"
+              name=""
+              type=""
+              label=""
+              description=""
               default=""
-              filter=""
+              
                >
           <option></option>
           <option></option>
