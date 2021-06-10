@@ -15,7 +15,7 @@
     <folder></folder>
   </files>
   
-  <languages folder="">
+  <languages folder="language">
     <language tag="en-GB"><language>
     <language tag="en-GB"></language>
   </languages>
