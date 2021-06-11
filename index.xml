@@ -21,7 +21,7 @@
   </languages>
   
   <config>
-    <fields>
+    <fields name="">
       <fieldset></fieldset>
     </fields>
   </config>
