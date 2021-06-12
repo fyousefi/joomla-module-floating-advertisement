@@ -21,7 +21,7 @@
   </languages>
   
   <config>
-    <fields name="">
+    <fields name="params">
       <fieldset></fieldset>
     </fields>
   </config>
