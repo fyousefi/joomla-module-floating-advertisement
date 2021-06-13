@@ -22,7 +22,7 @@
   
   <config>
     <fields name="params">
-      <fieldset></fieldset>
+      <fieldset name=""></fieldset>
     </fields>
   </config>
   
