@@ -23,7 +23,7 @@
   <config>
     <fields name="params">
       <fieldset name="basic">
-        <field name="" type="" />
+        <field name="" type="" label="" />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
       <fieldset name="advanced"></fieldset>
