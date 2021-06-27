@@ -24,6 +24,7 @@
     <fields name="params">
       <fieldset name="basic">
         <field name="" type="" label="" />
+        <field></field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
       <fieldset name="advanced"></fieldset>
