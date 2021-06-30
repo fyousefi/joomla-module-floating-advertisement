@@ -25,7 +25,8 @@
       <fieldset name="basic">
         <field name="" type="" label="" />
         <field
-               name="banner_type">
+               name="banner_type"
+               type="">
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
