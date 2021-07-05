@@ -28,7 +28,8 @@
                name="banner_type"
                type="radio"
                label=""
-               description="">
+               description=""
+               class="">
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
