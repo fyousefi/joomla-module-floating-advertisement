@@ -29,7 +29,8 @@
                type="radio"
                label=""
                description=""
-               class="">
+               class=""
+               default="">
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
