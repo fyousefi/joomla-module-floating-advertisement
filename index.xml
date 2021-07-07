@@ -30,7 +30,8 @@
                label=""
                description=""
                class=""
-               default="">
+               default=""
+               filter="">
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
