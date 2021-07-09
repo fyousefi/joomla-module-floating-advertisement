@@ -30,7 +30,7 @@
                label=""
                description=""
                class=""
-               default=""
+               default="0"
                filter="">
         </field>
       </fieldset>
