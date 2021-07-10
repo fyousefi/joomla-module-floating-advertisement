@@ -31,7 +31,7 @@
                description=""
                class=""
                default="0"
-               filter="">
+               filter="integer">
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
