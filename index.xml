@@ -31,7 +31,9 @@
                description=""
                class="btn-group btn-group-yesno"
                default="0"
-               filter="integer">
+               filter="integer"
+        >
+          <option></option>
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
