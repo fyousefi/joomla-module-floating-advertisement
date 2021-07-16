@@ -33,7 +33,7 @@
                default="0"
                filter="integer"
         >
-          <option value=""></option>
+          <option value="1"></option>
           
         </field>
       </fieldset>
