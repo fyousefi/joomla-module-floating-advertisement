@@ -34,7 +34,7 @@
                filter="integer"
         >
           <option value="1"></option>
-          <option vlaue=""></option>
+          <option vlaue="0"></option>
           
         </field>
       </fieldset>
