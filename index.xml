@@ -35,7 +35,6 @@
         >
           <option value="1">JYES</option>
           <option vlaue="0">JNO</option>
-          
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
