@@ -38,6 +38,7 @@
         </field>
         <field
                name="banner_script"
+               type="textarea"
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
