@@ -37,7 +37,7 @@
           <option vlaue="0">JNO</option>
         </field>
         <field
-               name=""
+               name="banner_script"
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
