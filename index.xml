@@ -39,7 +39,7 @@
         <field
                name="banner_script"
                type="textarea"
-               lable=""
+               label="Script"
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
