@@ -41,6 +41,8 @@
                type="textarea"
                label="Script"
                description=""
+               row=""
+
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
