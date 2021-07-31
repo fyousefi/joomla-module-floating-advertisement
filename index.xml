@@ -41,7 +41,7 @@
                type="textarea"
                label="Script"
                description=""
-               row=""
+               rows="2"
 
         />
       </fieldset>
