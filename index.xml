@@ -42,7 +42,7 @@
                label="Script"
                description=""
                rows="2"
-
+               filter=""
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
