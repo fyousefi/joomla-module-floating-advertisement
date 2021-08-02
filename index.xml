@@ -45,6 +45,9 @@
                filter="raw"
                showon="banner_type:1"
         />
+        <field
+               name=""
+        />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
       <fieldset name="advanced"></fieldset>
