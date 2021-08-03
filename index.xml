@@ -46,7 +46,7 @@
                showon="banner_type:1"
         />
         <field
-               name=""
+               name="banner_image"
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
