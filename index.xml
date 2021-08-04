@@ -47,6 +47,7 @@
         />
         <field
                name="banner_image"
+               type=""
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
