@@ -49,7 +49,7 @@
                name="banner_image"
                type="media"
                label="Image"
-               directory=""
+               directory="banners"
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
