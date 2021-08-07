@@ -50,6 +50,7 @@
                type="media"
                label="Image"
                directory="banners"
+               showon=""
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
