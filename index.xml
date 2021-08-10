@@ -55,7 +55,8 @@
         <field 
                name=""
                type=""
-               label=""        
+               label=""
+               size=""        
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
