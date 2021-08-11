@@ -56,7 +56,8 @@
                name=""
                type=""
                label=""
-               size=""        
+               size=""
+               validate=""        
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
