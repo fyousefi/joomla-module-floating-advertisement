@@ -56,7 +56,7 @@
                name="banner_link"
                type="url"
                label="Link"
-               size=""
+               size="10"
                validate=""
                showon=""        
         />
