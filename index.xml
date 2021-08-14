@@ -57,7 +57,7 @@
                type="url"
                label="Link"
                size="10"
-               validate=""
+               validate="url"
                showon=""        
         />
       </fieldset>
