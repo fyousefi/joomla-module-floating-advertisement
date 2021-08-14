@@ -58,7 +58,7 @@
                label="Link"
                size="10"
                validate="url"
-               showon=""        
+               showon="banner_type:0"        
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
