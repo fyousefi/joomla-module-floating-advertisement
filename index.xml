@@ -55,7 +55,7 @@
         <field 
                name="banner_link"
                type="url"
-               label=""
+               label="Link"
                size=""
                validate=""
                showon=""        
