@@ -62,6 +62,7 @@
         />
         <field
                name=""
+               type=""
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
