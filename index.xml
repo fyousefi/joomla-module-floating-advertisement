@@ -61,7 +61,7 @@
                showon="banner_type:0"        
         />
         <field
-        
+               name=""
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
