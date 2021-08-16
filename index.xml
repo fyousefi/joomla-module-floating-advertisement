@@ -64,6 +64,7 @@
                name=""
                type=""
                label=""
+               description=""
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
