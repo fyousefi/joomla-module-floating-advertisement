@@ -63,7 +63,7 @@
         <field
                name=""
                type=""
-               label==""
+               label=""
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
