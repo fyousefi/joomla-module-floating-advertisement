@@ -61,7 +61,7 @@
                showon="banner_type:0"        
         />
         <field
-               name=""
+               name="device_type"
                type=""
                label=""
                description=""
