@@ -62,7 +62,7 @@
         />
         <field
                name="device_type"
-               type=""
+               type="checkboxes"
                label=""
                description=""
         />
