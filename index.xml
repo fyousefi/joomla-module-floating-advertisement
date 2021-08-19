@@ -63,7 +63,7 @@
         <field
                name="device_type"
                type="checkboxes"
-               label=""
+               label="Device Type"
                description=""
         />
       </fieldset>
