@@ -64,7 +64,7 @@
                name="device_type"
                type="checkboxes"
                label="Device Type"
-               description=""
+               description="Select which device can show banner"
         />
       </fieldset>
       <fieldset name="options" label=""></fieldset>
