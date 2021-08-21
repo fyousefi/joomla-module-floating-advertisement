@@ -66,6 +66,7 @@
                label="Device Type"
                description="Select which device can show banner"
         >
+          <option></option>
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
