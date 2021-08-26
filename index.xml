@@ -67,7 +67,7 @@
                description="Select which device can show banner"
         >
           <option value="phone">Phone</option>
-          <option></option>
+          <option value=""></option>
         </field>
       </fieldset>
       <fieldset name="options" label=""></fieldset>
