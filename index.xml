@@ -70,7 +70,8 @@
           <option value="tablet">Tablet</option>
         </field>
       </fieldset>
-      <fieldset name="options" label=""></fieldset>
+      <fieldset name="options" label="">
+      </fieldset>
       <fieldset name="advanced"></fieldset>
     </fields>
   </config>
