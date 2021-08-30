@@ -71,6 +71,8 @@
         </field>
       </fieldset>
       <fieldset name="options" label="">
+        <field>
+        </field>
       </fieldset>
       <fieldset name="advanced"></fieldset>
     </fields>
