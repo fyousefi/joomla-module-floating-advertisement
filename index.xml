@@ -73,6 +73,7 @@
       <fieldset name="options" label="">
         <field>
                name=""
+               type=""
         </field>
       </fieldset>
       <fieldset name="advanced"></fieldset>
