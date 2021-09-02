@@ -74,6 +74,7 @@
         <field>
                name=""
                type=""
+               label=""
         </field>
       </fieldset>
       <fieldset name="advanced"></fieldset>
