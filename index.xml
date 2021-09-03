@@ -76,6 +76,7 @@
                type=""
                label=""
                description=""
+               class=""
         </field>
       </fieldset>
       <fieldset name="advanced"></fieldset>
