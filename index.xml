@@ -78,6 +78,7 @@
                description=""
                class=""
                default=""
+               filter=""
         </field>
       </fieldset>
       <fieldset name="advanced"></fieldset>
