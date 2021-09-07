@@ -71,7 +71,7 @@
         </field>
       </fieldset>
       <fieldset name="options" label="">
-        <field>
+        <field
                name=""
                type=""
                label=""
@@ -79,6 +79,8 @@
                class=""
                default=""
                filter=""
+               >
+          
         </field>
       </fieldset>
       <fieldset name="advanced"></fieldset>
