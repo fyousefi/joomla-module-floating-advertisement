@@ -72,7 +72,7 @@
       </fieldset>
       <fieldset name="options" label="">
         <field
-               name=""
+               name="prepare_content"
                type=""
                label=""
                description=""
