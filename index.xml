@@ -73,7 +73,7 @@
       <fieldset name="options" label="">
         <field
                name="prepare_content"
-               type=""
+               type="radio"
                label=""
                description=""
                class=""
