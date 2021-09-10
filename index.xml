@@ -76,7 +76,7 @@
                type="radio"
                label=""
                description=""
-               class="btn-group"
+               class="btn-group "
                default=""
                filter=""
                >
