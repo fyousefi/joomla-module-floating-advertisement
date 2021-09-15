@@ -80,7 +80,7 @@
                default="0"
                filter="integer"
                >
-          
+          <option></option>
         </field>
       </fieldset>
       <fieldset name="advanced"></fieldset>
