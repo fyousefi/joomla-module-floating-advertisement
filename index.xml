@@ -81,6 +81,7 @@
                filter="integer"
                >
           <option></option>
+          <option></option>
         </field>
       </fieldset>
       <fieldset name="advanced"></fieldset>
