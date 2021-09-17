@@ -80,7 +80,7 @@
                default="0"
                filter="integer"
                >
-          <option></option>
+          <option value=""></option>
           <option></option>
         </field>
       </fieldset>
