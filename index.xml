@@ -84,7 +84,7 @@
           <option value="0">JNO</option>
         </field>
                name="backgroundimage"
-               type=""
+               type="media"
                label=""
                description=""
         <field />
