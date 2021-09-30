@@ -89,7 +89,8 @@
                description=""
         <field />
       </fieldset>
-      <fieldset name="advanced"></fieldset>
+      <fieldset name="advanced">
+      </fieldset>
     </fields>
   </config>
   
