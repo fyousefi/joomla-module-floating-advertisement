@@ -90,6 +90,8 @@
         <field />
       </fieldset>
       <fieldset name="advanced">
+        <field
+        />
       </fieldset>
     </fields>
   </config>
