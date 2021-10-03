@@ -92,6 +92,7 @@
       <fieldset name="advanced">
         <field
                name=""
+               type=""
         />
       </fieldset>
     </fields>
