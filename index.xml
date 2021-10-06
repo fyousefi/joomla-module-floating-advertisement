@@ -91,7 +91,7 @@
       </fieldset>
       <fieldset name="advanced">
         <field
-               name=""
+               name="layout"
                type=""
                label=""
                description=""
