@@ -92,7 +92,7 @@
       <fieldset name="advanced">
         <field
                name="layout"
-               type=""
+               type="modulelayout"
                label=""
                description=""
         />
