@@ -93,7 +93,7 @@
         <field
                name="layout"
                type="modulelayout"
-               label="JFIELD_ALT_LAYOUT_LABEL"
+               label=""
                description=""
         />
       </fieldset>
