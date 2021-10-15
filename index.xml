@@ -100,6 +100,7 @@
         <field
                name=""
                type=""
+               label=""
         />
       </fieldset>
     </fields>
