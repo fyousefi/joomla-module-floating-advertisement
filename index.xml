@@ -98,7 +98,7 @@
         />
         
         <field
-               name=""
+               name="moduleclass_sfx"
                type=""
                label=""
                description=""
