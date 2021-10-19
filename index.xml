@@ -99,7 +99,7 @@
         
         <field
                name="moduleclass_sfx"
-               type=""
+               type="textarea"
                label=""
                description=""
                rows=""
