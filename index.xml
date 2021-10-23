@@ -104,6 +104,9 @@
                description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
                rows="3"
         />
+        
+        <field
+        />
       </fieldset>
     </fields>
   </config>
