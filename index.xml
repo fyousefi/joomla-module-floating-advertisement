@@ -106,7 +106,8 @@
         />
         
         <field
-        />
+               >
+        </field>
       </fieldset>
     </fields>
   </config>
