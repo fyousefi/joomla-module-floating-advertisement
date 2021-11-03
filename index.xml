@@ -109,7 +109,7 @@
               name=""
               type=""
               label=""
-              
+              description=""             
                >
         </field>
       </fieldset>
