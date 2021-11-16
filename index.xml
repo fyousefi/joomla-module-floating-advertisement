@@ -107,7 +107,7 @@
         
         <field
               name="cache"
-              type=""
+              type="list"
               label=""
               description=""
               default=""
