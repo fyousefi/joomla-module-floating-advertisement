@@ -108,7 +108,7 @@
         <field
               name="cache"
               type="list"
-              label=""
+              label="COM_MODULES_FIELD_CACHING_LABEL"
               description=""
               default=""
               filter=""
