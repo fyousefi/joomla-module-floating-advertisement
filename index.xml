@@ -109,7 +109,7 @@
               name="cache"
               type="list"
               label="COM_MODULES_FIELD_CACHING_LABEL"
-              description=""
+              description="COM_MODULES_FIELD_CACHING_DESC"
               default=""
               filter=""
                >
