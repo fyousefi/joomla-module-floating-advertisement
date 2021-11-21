@@ -110,7 +110,7 @@
               type="list"
               label="COM_MODULES_FIELD_CACHING_LABEL"
               description="COM_MODULES_FIELD_CACHING_DESC"
-              default=""
+              default="1"
               filter=""
                >
           <option></option>
