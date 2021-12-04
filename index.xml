@@ -114,7 +114,7 @@
               filter="integer"
                >
           <option value="1"></option>
-          <option value=""></option>
+          <option value="0"></option>
         </field>
       </fieldset>
     </fields>
