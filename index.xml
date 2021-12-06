@@ -85,7 +85,7 @@
         </field>
                name="backgroundimage"
                type="media"
-               label=""
+               label="MOD_FLOATING_AD_FIELD_BACKGROUNDIMAGE_LABEL"
                description=""
         <field />
       </fieldset>
