@@ -86,7 +86,7 @@
                name="backgroundimage"
                type="media"
                label="MOD_FLOATING_AD_FIELD_BACKGROUNDIMAGE_LABEL"
-               description=""
+               description="MOD_BACKGROUNDIMAGE_FIELD_LOGO_DESC"
         <field />
       </fieldset>
       <fieldset name="advanced">
