@@ -83,10 +83,12 @@
           <option value="1">JYES</option>
           <option value="0">JNO</option>
         </field>
+        <field
                name="backgroundimage"
                type="media"
                label="MOD_FLOATING_AD_FIELD_BACKGROUNDIMAGE_LABEL"
                description="MOD_BACKGROUNDIMAGE_FIELD_LOGO_DESC"
+               >
         <field />
       </fieldset>
       <fieldset name="advanced">
