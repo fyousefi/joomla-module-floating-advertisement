@@ -12,7 +12,7 @@
   
   <files>
     <filename module=""></filename>
-    <folder></folder>
+    <folder>tmpl</folder>
   </files>
   
   <languages folder="language">
