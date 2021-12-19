@@ -122,6 +122,7 @@
         <field
               name=""
               type=""
+              label=""
         />
         
       </fieldset>
