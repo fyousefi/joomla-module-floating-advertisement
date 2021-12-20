@@ -123,6 +123,7 @@
               name=""
               type=""
               label=""
+              description=""
         />
         
       </fieldset>
