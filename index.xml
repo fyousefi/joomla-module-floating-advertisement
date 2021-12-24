@@ -124,7 +124,7 @@
               type=""
               label=""
               description=""
-              default=""
+              default="900"
               filter="integer"
         />
         
