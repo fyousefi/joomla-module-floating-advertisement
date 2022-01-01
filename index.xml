@@ -124,7 +124,8 @@
           type=""
           label=""
           description=""
-          default=""              
+          default=""
+          filter=""          
         />
         
       </fieldset>
