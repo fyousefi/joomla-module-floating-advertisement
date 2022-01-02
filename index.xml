@@ -120,12 +120,12 @@
         </field>
         
         <field
-          name=""
-          type=""
-          label=""
-          description=""
-          default=""
-          filter=""          
+              name=""
+              type=""
+              label=""
+              description=""
+              default=""
+              filter=""          
         />
         
       </fieldset>
