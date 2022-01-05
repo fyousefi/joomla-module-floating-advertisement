@@ -122,7 +122,7 @@
         <field
               name="cache_time"
               type="number"
-              label=""
+              label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
               description=""
               default=""
               filter=""          
