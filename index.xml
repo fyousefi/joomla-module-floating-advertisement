@@ -123,7 +123,7 @@
               name="cache_time"
               type="number"
               label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
-              description=""
+              description="COM_MODULES_FIELD_CACHE_TIME_DESC"
               default=""
               filter=""          
         />
