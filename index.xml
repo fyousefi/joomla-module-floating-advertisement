@@ -128,6 +128,8 @@
               filter="integer"          
         />
         
+        <field></field>
+        
       </fieldset>
     </fields>
   </config>
