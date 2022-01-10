@@ -128,7 +128,9 @@
               filter="integer"          
         />
         
-        <field></field>
+        <field
+               >
+        </field>
         
       </fieldset>
     </fields>
