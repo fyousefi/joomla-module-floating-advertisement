@@ -130,7 +130,7 @@
         
         <field
               name="cachemode"
-              type=""
+              type="hidden"
                >
         </field>
         
