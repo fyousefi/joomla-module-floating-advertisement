@@ -132,7 +132,8 @@
               name="cachemode"
               type="hidden"
               default="static"
-               >
+              >
+          <option></option>
         </field>
         
       </fieldset>
