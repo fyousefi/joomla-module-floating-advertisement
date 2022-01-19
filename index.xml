@@ -133,7 +133,7 @@
               type="hidden"
               default="static"
               >
-          <option></option>
+          <option value=""></option>
         </field>
         
       </fieldset>
