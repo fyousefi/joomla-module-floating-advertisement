@@ -119,14 +119,7 @@
           <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
         </field>
         
-        <field
-              name="cache_time"
-              type="number"
-              label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
-              description="COM_MODULES_FIELD_CACHE_TIME_DESC"
-              default="900"
-              filter="integer"          
-        />
+
         
         <field
               name="cachemode"
