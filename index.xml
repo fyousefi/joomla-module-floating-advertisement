@@ -119,7 +119,9 @@
           <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
         </field>
         
-
+        <field
+    
+        />
         
         <field
               name="cachemode"
