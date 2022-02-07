@@ -121,7 +121,7 @@
         
         <field
               name="cache_time"
-              type=""
+              type="number"
 
 
         />
