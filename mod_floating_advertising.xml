@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
   <name>mod_floating_advertising</name>
-  <author></author>
+  <author>fyousefi</author>
   <creationDate>April 2020</creationDate>
   <copyright></copyright>
   <license></license>
