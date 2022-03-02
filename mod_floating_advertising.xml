@@ -11,7 +11,7 @@
   <description>MOD_FLOATING_ADVERTISING_XML_DESCRIPTION</description>
   
   <files>
-    <filename module="mod_floating_advertising"></filename>
+    <filename module="mod_floating_advertising">mod_floating_advertising.php</filename>
     <folder>tmpl</folder>
   </files>
   
