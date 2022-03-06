@@ -23,7 +23,7 @@
   <config>
     <fields name="params">
       <fieldset name="basic">
-        <field name="spacer" type="" label="" />
+        <field name="spacer" type="spacer" label="" />
         <field
                name="banner_type"
                type="radio"
