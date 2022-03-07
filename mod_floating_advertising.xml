@@ -23,7 +23,7 @@
   <config>
     <fields name="params">
       <fieldset name="basic">
-        <field name="spacer" type="spacer" label="" />
+        <field name="spacer" type="spacer" label="If you have a banner script from an advertising agency select YES or create new custom banner" />
         <field
                name="banner_type"
                type="radio"
