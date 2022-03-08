@@ -27,7 +27,7 @@
         <field
                name="banner_type"
                type="radio"
-               label=""
+               label="Do you have a script?"
                description=""
                class="btn-group btn-group-yesno"
                default="0"
