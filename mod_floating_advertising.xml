@@ -74,7 +74,7 @@
         <field
                name="prepare_content"
                type="radio"
-               label="MOD_FLOATING_AD_FIELD_PREPARE_CONTENT_LABEL"
+               label="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_LABEL"
                description=""
                class="btn-group btn-group-yesno"
                default="0"
