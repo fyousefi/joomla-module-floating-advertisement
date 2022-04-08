@@ -87,7 +87,7 @@
                name="backgroundimage"
                type="media"
                label="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_LABEL"
-               description="MOD_BACKGROUNDIMAGE_FIELD_LOGO_DESC"
+               description="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_DESC"
                >
         <field />
       </fieldset>
