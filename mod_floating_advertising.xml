@@ -3,12 +3,12 @@
 	<name>MOD_FLOATING_ADVERTISING</name>
 	<author>fyousefi</author>
 	<creationDate>April 2020</creationDate>
-    <copyright>Copyright (C) 2005 AsiaSun.ir All rights reserved.</copyright>
-    <license>Creative Commons Zero v1.0 Universal</license>
-    <authorEmail>support[[@]]asiasun.[[ir]]</authorEmail>
-    <authorUrl>www.asiasun.ir</authorUrl>
-    <version>1.0.0</version>
-    <description>MOD_FLOATING_ADVERTISING_XML_DESCRIPTION</description>
+	<copyright>Copyright (C) 2005 AsiaSun.ir All rights reserved.</copyright>
+	<license>Creative Commons Zero v1.0 Universal</license>
+	<authorEmail>support[[@]]asiasun.[[ir]]</authorEmail>
+	<authorUrl>www.asiasun.ir</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_FLOATING_ADVERTISING_XML_DESCRIPTION</description>
   
   <files>
     <filename module="mod_floating_advertising">mod_floating_advertising.php</filename>
