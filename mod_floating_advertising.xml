@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
-  <name>mod_floating_advertising</name>
+  <name>MOD_FLOATING_ADVERTISING</name>
   <author>fyousefi</author>
   <creationDate>April 2020</creationDate>
   <copyright>Copyright (C) 2005 AsiaSun.ir All rights reserved.</copyright>
