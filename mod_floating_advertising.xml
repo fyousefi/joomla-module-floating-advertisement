@@ -9,11 +9,10 @@
 	<authorUrl>www.asiasun.ir</authorUrl>
 	<version>1.0.0</version>
 	<description>MOD_FLOATING_ADVERTISING_XML_DESCRIPTION</description>
-  
-  <files>
-    <filename module="mod_floating_advertising">mod_floating_advertising.php</filename>
-    <folder>tmpl</folder>
-  </files>
+	<files>
+		<filename module="mod_floating_advertising">mod_floating_advertising.php</filename>
+		<folder>tmpl</folder>
+	</files>
   
   <languages folder="language">
     <language tag="en-GB">en-GB/en-GB.mod_floating_advertising.ini<language>
