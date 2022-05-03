@@ -13,11 +13,10 @@
 		<filename module="mod_floating_advertising">mod_floating_advertising.php</filename>
 		<folder>tmpl</folder>
 	</files>
-  
-  <languages folder="language">
-    <language tag="en-GB">en-GB/en-GB.mod_floating_advertising.ini<language>
-    <language tag="en-GB">en-GB/en-GB.mod_floating_advertising.sys.ini</language>
-  </languages>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_floating_advertising.ini<language>
+		<language tag="en-GB">en-GB/en-GB.mod_floating_advertising.sys.ini</language>
+	</languages>
   
   <config>
     <fields name="params">
