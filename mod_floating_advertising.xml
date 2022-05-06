@@ -19,7 +19,7 @@
 	</languages>
 	<config>
 		<fields name="params">
-      <fieldset name="basic">
+			<fieldset name="basic">
         <field 
                name="spacer" 
                type="spacer" 
