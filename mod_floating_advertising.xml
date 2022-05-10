@@ -26,8 +26,8 @@
 					label="If you have a banner script from an advertising agency select YES or create new custom banner"
 				/>
 				
-        <field
-               name="banner_type"
+				<field
+					name="banner_type"
                type="radio"
                label="Do you have a script?"
                description="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_DESC"
@@ -37,7 +37,8 @@
                >
                <option value="1">JYES</option>
                <option vlaue="0">JNO</option>
-        </field>
+				</field>
+				
         <field
                name="banner_script"
                type="textarea"
