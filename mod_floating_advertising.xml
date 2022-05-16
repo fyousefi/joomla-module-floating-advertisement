@@ -60,7 +60,7 @@
 					type="url"
 					label="Link"
 					size="10"
-               validate="url"
+					validate="url"
                showon="banner_type:0"        
         />
         <field
