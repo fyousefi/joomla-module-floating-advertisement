@@ -31,7 +31,7 @@
 					type="radio"
 					label="Do you have a script?"
 					description="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_DESC"
-               class="btn-group btn-group-yesno"
+					class="btn-group btn-group-yesno"
                default="0"
                filter="integer"
                >
