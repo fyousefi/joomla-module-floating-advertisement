@@ -36,7 +36,7 @@
 					filter="integer"
 					>
 					<option value="1">JYES</option>
-               <option vlaue="0">JNO</option>
+					<option vlaue="0">JNO</option>
 				</field>
 				
         <field
