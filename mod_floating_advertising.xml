@@ -39,7 +39,7 @@
 					<option vlaue="0">JNO</option>
 				</field>
 				
-        <field
+				<field
                name="banner_script"
                type="textarea"
                label="Script"
