@@ -62,7 +62,7 @@
 					size="10"
 					validate="url"
 					showon="banner_type:0"        
-        />
+				/>
         <field
                name="device_type"
                type="checkboxes"
