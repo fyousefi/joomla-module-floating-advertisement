@@ -65,7 +65,7 @@
 				/>
 				<field
 					name="device_type"
-               type="checkboxes"
+					type="checkboxes"
                label="Device Type"
                description="Select which device can show banner"
         >
