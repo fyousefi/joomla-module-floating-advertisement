@@ -42,7 +42,7 @@
 				<field
 					name="banner_script"
 					type="textarea"
-               label="Script"
+					label="Script"
                description="If you have a banner script from an advertising agency."
                rows="2"
                filter="raw"
