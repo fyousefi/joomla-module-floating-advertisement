@@ -44,7 +44,7 @@
 					type="textarea"
 					label="Script"
 					description="If you have a banner script from an advertising agency."
-               rows="2"
+					rows="2"
                filter="raw"
                showon="banner_type:1"
         />
