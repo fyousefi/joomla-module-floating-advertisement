@@ -48,7 +48,7 @@
 					filter="raw"
 					showon="banner_type:1"
 				/>
-        <field
+				<field
                name="banner_image"
                type="media"
                label="Image"
