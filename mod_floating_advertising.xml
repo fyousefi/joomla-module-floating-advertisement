@@ -49,7 +49,7 @@
 					showon="banner_type:1"
 				/>
 				<field
-               name="banner_image"
+					name="banner_image"
                type="media"
                label="Image"
                directory="banners"
