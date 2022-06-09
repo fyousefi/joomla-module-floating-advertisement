@@ -51,7 +51,7 @@
 				<field
 					name="banner_image"
 					type="media"
-               label="Image"
+					label="Image"
                directory="banners"
                showon="banner_type:0"
         />
