@@ -53,7 +53,7 @@
 					type="media"
 					label="Image"
 					directory="banners"
-               showon="banner_type:0"
+					showon="banner_type:0"
         />
         <field 
                name="banner_link"
