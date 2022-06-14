@@ -70,7 +70,7 @@
 					label="Device Type"
 					description="Select which device can show banner"
 				>
-          <option value="phone">Phone</option>
+				<option value="phone">Phone</option>
           <option value="tablet">Tablet</option>
         </field>
       </fieldset>
