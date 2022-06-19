@@ -74,7 +74,7 @@
 				<option value="tablet">Tablet</option>
 				</field>
 			</fieldset>
-      <fieldset name="options" label="COM_MODULES_BASIC_FIELDSET_LABEL">
+			<fieldset name="options" label="COM_MODULES_BASIC_FIELDSET_LABEL">
         <field
                name="prepare_content"
                type="radio"
