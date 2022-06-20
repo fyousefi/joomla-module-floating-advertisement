@@ -75,7 +75,7 @@
 				</field>
 			</fieldset>
 			<fieldset name="options" label="COM_MODULES_BASIC_FIELDSET_LABEL">
-        <field
+				<field
                name="prepare_content"
                type="radio"
                label="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_LABEL"
