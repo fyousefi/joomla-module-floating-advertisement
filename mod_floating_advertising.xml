@@ -77,7 +77,7 @@
 			<fieldset name="options" label="COM_MODULES_BASIC_FIELDSET_LABEL">
 				<field
 					name="prepare_content"
-               type="radio"
+					type="radio"
                label="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_LABEL"
                description="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_DESC"
                class="btn-group btn-group-yesno"
