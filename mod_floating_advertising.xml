@@ -80,7 +80,7 @@
 					type="radio"
 					label="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_LABEL"
 					description="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_DESC"
-               class="btn-group btn-group-yesno"
+					class="btn-group btn-group-yesno"
                default="0"
                filter="integer"
                >
