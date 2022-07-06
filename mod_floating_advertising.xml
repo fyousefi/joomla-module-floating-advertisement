@@ -89,7 +89,7 @@
 				</field>
 				<field
 					name="backgroundimage"
-               type="media"
+					type="media"
                label="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_LABEL"
                description="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_DESC"
                >
