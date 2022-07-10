@@ -93,7 +93,7 @@
 					label="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_LABEL"
 					description="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_DESC"
 				>
-        <field />
+				<field />
       </fieldset>
       <fieldset name="advanced">
         <field
