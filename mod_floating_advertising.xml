@@ -94,7 +94,7 @@
 					description="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_DESC"
 				>
 				<field />
-      </fieldset>
+			</fieldset>
       <fieldset name="advanced">
         <field
                name="layout"
