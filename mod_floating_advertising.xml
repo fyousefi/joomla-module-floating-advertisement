@@ -98,7 +98,7 @@
 			<fieldset name="advanced">
 				<field
 					name="layout"
-               type="modulelayout"
+					type="modulelayout"
                label="JFIELD_ALT_LAYOUT_LABEL"
                description="JFIELD_ALT_MODULE_LAYOUT_DESC"
         />
