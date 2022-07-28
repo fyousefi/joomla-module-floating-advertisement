@@ -111,7 +111,7 @@
 					rows="3"
 				/>
         
-        <field
+				<field
               name="cache"
               type="list"
               label="COM_MODULES_FIELD_CACHING_LABEL"
