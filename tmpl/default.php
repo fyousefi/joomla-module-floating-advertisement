@@ -1,5 +1,5 @@
 <?php
 /**
  * @package     Joomla.Site
- * @subpackage  
+ * @subpackage  mod_floating_advertising
  */
