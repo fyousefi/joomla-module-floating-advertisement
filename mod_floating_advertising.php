@@ -1,6 +1,6 @@
 <?php
   /**
-  * @package
+  * @package     
   * @subpackage
   *
   * @copyright
