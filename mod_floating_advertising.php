@@ -1,7 +1,7 @@
 <?php
   /**
   * @package     Joomla.Site
-  * @subpackage
+  * @subpackage  
   *
   * @copyright
   * @license     GNU General Public License version 2 or later
