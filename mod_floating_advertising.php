@@ -1,7 +1,7 @@
 <?php
   /**
   * @package     Joomla.Site
-  * @subpackage  
+  * @subpackage  mod_floating_advertising
   *
   * @copyright
   * @license     GNU General Public License version 2 or later
