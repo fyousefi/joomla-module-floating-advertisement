@@ -132,7 +132,7 @@
 					filter="integer"
 				/>
         
-        <field
+				<field
               name="cachemode"
               type="hidden"
               default="static"
