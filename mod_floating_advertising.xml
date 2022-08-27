@@ -133,7 +133,7 @@
 				/>
         
 				<field
-              name="cachemode"
+					name="cachemode"
               type="hidden"
               default="static"
               >
