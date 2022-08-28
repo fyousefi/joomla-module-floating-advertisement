@@ -134,7 +134,7 @@
         
 				<field
 					name="cachemode"
-              type="hidden"
+					type="hidden"
               default="static"
               >
           <option value="static"></option>
