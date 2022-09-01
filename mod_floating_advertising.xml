@@ -138,7 +138,7 @@
 					default="static"
 				>
 				<option value="static"></option>
-        </field> 
+				</field> 
       </fieldset>
 		</fields>
 	</config>
