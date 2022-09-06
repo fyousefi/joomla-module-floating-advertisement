@@ -1,4 +1,4 @@
-# MyCMS
+# Joomla Floating Advertisement Module
 
 
 Introduction
