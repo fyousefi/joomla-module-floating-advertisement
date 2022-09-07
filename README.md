@@ -1,5 +1,5 @@
 # Joomla Floating Advertisement Module
 
 
-Introduction
-------------
+What is this?
+---------------------
