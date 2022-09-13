@@ -10,6 +10,7 @@ The floating advertisements module is a user-friendly, modern, advertisement mod
 Features
 ---------------------
 - Modern Configuration
+- Flexibility & Fully Responsive
 
 
 Permissions
