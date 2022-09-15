@@ -3,7 +3,7 @@
   * @package     Joomla.Site
   * @subpackage  mod_floating_advertising
   *
-  * @copyright   
+  * @copyright   Copyright (C) 
   * @license     GNU General Public License version 2 or later
   */
 
