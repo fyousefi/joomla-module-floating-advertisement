@@ -11,6 +11,7 @@ Features
 ---------------------
 - Modern Configuration
 - Flexibility & Fully Responsive
+- Desktop, Mobile and Retina image option
 
 
 Permissions
