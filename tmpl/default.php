@@ -24,6 +24,6 @@ $count = count($data);
     .floatingad {
         position: fixed;
         bottom: 0%;
-        width: ;
+        width: 100%;
     }
 </style>
