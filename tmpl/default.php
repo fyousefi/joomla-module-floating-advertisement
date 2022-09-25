@@ -15,6 +15,6 @@ $count = count($data);
 
 <script>
     function adclose() {
-        var element = document.getElementById();
+        var element = document.getElementById("");
     }
 </script>
