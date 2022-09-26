@@ -30,7 +30,7 @@ $count = count($data);
 </style>
 
 <div class="row">
-    <div id="floating" class="floatingad <?php if(empty($param->get())) echo "" ;?>">
+    <div id="floating" class="floatingad <?php if(empty($param->get('device_type'))) echo "" ;?>">
 
     </div>
 </div>
