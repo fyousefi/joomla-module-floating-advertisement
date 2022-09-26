@@ -37,6 +37,6 @@ $count = count($data);
          }?> <?php echo $moduleclass_sfx; ?>"
          <?php if($params->get('backgroundimage')): ?>
                style="background-image:url(<?php echo $params->get('backgroundimage');?>)"
-               <?php ?>>
+               <?php endif; ?>>
     </div>
 </div>
