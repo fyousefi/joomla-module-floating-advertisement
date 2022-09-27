@@ -38,5 +38,6 @@ $count = count($data);
          <?php if($params->get('backgroundimage')): ?>
                style="background-image:url(<?php echo $params->get('backgroundimage');?>)"
                <?php endif; ?>>
+        
     </div>
 </div>
