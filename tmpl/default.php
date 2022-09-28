@@ -30,7 +30,7 @@ $count = count($data);
 </style>
 
 <div class="row">
-    <div id="floating" class="floatingad <?php if(empty($param->get('device_type'))) echo "hidden-lg" ;?>">
+    <div id="floating" class="floatingad <?php if(empty($param->get('device_type'))) echo "hidden-lg hidden-md" ;?>">
 
     </div>
 </div>
