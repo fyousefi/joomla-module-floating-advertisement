@@ -32,7 +32,7 @@ $count = count($data);
 <div class="row">
     <div id="floating" class="floatingad <?php if(empty($params->get('device_type'))) echo "hidden-lg hidden-md hidden-sm hidden-xs";?>">
          <?php foreach($params->get('device_type') as $x => $x_value) {
-            if($x_value == 'tablet') echo "";
+            if($x_value == 'tablet') echo "visible-sm-block ";
          }?>
     </div>
 </div>
