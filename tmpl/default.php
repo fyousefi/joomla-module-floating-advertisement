@@ -16,5 +16,6 @@ $count = count($data);
 <script>
     function adclose() {
         var element = document.getElementById("floating");
+        element
     }
 </script>
