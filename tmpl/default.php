@@ -30,7 +30,7 @@ $count = count($data);
 </style>
 
 <div class="row">
-    <div id="floating" class="floatingad <?php if() echo "" ;?>">
+    <div id="floating" class="floatingad <?php if(empty()) echo "" ;?>">
 
     </div>
 </div>
