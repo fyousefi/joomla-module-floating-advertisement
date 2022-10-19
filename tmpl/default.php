@@ -30,7 +30,7 @@ $count = count($data);
 </style>
 
 <div class="row">
-    <div id="floating">
+    <div id="floating" class="">
 
     </div>
 </div>
