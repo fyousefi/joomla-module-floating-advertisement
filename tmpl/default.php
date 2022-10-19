@@ -31,6 +31,8 @@ $count = count($data);
 
 <div class="row">
     <div id="floating" class="floatingad <?php if(empty($param->get('device_type'))) echo "hidden-lg hidden-md hidden-sm hidden-xs";?>">
-         <?php ?>
+         <?php foreach() {
+            
+         }?>
     </div>
 </div>
