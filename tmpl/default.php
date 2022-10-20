@@ -21,5 +21,7 @@ $count = count($data);
 </script>
 
 <style>
-    
+    .floatingad {
+        
+    }
 </style>
