@@ -29,6 +29,6 @@ $count = count($data);
     }
 </style>
 
-<div class="">
+<div class="row">
 
 </div>
