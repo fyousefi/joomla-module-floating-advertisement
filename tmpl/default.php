@@ -31,5 +31,4 @@ $count = count($data);
 
 <div class="row">
     <div></div>
-
 </div>
