@@ -19,3 +19,5 @@ $count = count($data);
         element.remove("div #floating");
     }
 </script>
+
+<style></style>
