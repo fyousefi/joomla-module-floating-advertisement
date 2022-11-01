@@ -25,6 +25,6 @@ $count = count($data);
         position: fixed;
         bottom: 0%;
         width: 100%;
-        z-index: ;
+        z-index: 1000;
     }
 </style>
