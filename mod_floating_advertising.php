@@ -2,7 +2,7 @@
   /**
   * @package     Joomla.Site
   * @subpackage  mod_floating_advertising
-  * @author
+  * @author      
   *
   * @copyright   Copyright (C) AsiaSun.ir All rights reserved.
   * @license     GNU General Public License version 2 or later
