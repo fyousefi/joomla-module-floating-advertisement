@@ -14,7 +14,7 @@ $count = count($data);
 ?>
 
 <script>
-    function name(params) {
+    function adclose(params) {
         
     }
 </script>
