@@ -5,5 +5,5 @@
  * @author      F.Yousefi
  *
  * @copyright   Copyright (C) AsiaSun.ir All rights reserved.
- * @license     
+ * @license     GNU General Public License version 2 or later
  */
