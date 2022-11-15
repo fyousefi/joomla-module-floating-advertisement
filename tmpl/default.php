@@ -14,5 +14,7 @@ $count = count($data);
 ?>
 
 <script>
-    
+    function name(params) {
+        
+    }
 </script>
