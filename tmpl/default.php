@@ -13,4 +13,6 @@ defined('_JEXEC') or die;
 $count = count($data);
 ?>
 
-<script></script>
+<script>
+    
+</script>
