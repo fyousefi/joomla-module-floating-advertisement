@@ -11,3 +11,4 @@
 defined('_JEXEC') or die;
 
 $count = count($data);
+?>
