@@ -34,6 +34,7 @@ $count = count($data);
          <?php foreach($params->get('device_type') as $x => $x_value) {
             if($x_value == 'tablet') echo "visible-sm-block ";
             if($x_value == 'phone') echo "visible-xs-block ";
-         }?> <?php echo $moduleclass_sfx; ?>">
+         }?> <?php echo $moduleclass_sfx; ?>
+         ">
     </div>
 </div>
