@@ -35,6 +35,7 @@ $count = count($data);
             if($x_value == 'tablet') echo "visible-sm-block ";
             if($x_value == 'phone') echo "visible-xs-block ";
          }?> <?php echo $moduleclass_sfx; ?>"
-         <?php if($params->get('backgroundimage')): ?>>
+         <?php if($params->get('backgroundimage')): ?>
+               style="">
     </div>
 </div>
