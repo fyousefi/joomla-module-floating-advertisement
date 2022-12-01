@@ -36,6 +36,6 @@ $count = count($data);
             if($x_value == 'phone') echo "visible-xs-block ";
          }?> <?php echo $moduleclass_sfx; ?>"
          <?php if($params->get('backgroundimage')): ?>
-               style="background-image:url()">
+               style="background-image:url(<?php ?>)">
     </div>
 </div>
