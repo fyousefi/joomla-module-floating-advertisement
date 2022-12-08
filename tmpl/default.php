@@ -39,7 +39,7 @@ $count = count($data);
                style="background-image:url(<?php echo $params->get('backgroundimage');?>)"
                <?php endif; ?>>
         <div class="inner">
-             <span style="font-size: 10px;"></span>
+             <span style="font-size: 10px; background-color:"></span>
         </div>
     </div>
 </div>
