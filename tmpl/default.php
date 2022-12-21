@@ -39,7 +39,7 @@ $count = count($data);
                style="background-image:url(<?php echo $params->get('backgroundimage');?>)"
                <?php endif; ?>>
         <div class="inner">
-             <span style="font-size: 10px; background-color: #7e1a18; color: #f1f3f5" onclick="adclose()" aria-hidden="true"><i><i></span>
+             <span style="font-size: 10px; background-color: #7e1a18; color: #f1f3f5" onclick="adclose()" aria-hidden="true"><i class=""><i></span>
         </div>
     </div>
 </div>
