@@ -40,6 +40,7 @@ $count = count($data);
                <?php endif; ?>>
         <div class="inner">
              <span style="font-size: 10px; background-color: #7e1a18; color: #f1f3f5" onclick="adclose()" aria-hidden="true"><i class="fa fa-times-circle"><i>Close</span>
+             <?php ?>
         </div>
     </div>
 </div>
