@@ -43,7 +43,7 @@ $count = count($data);
              <?php foreach($data as $index=>$value): ?>
                 <?php if(isset($value['link']) and !empty($value['link']) ): ?>
                   <a href="<?php echo $value['link']; ?>" target="_blank" rel="nofollow">
-                     <?php if(isset($value['image'])): ?>
+                     <?php if(isset($value['image']) and ): ?>
                   </a>
                 <?php endif; ?>
              <?php endforeach; ?>
