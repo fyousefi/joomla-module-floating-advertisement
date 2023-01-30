@@ -44,7 +44,7 @@ $count = count($data);
                 <?php if(isset($value['link']) and !empty($value['link']) ): ?>
                   <a href="<?php echo $value['link']; ?>" target="_blank" rel="nofollow">
                      <?php if(isset($value['image']) and !empty($value['image'])): ?>
-                     <img class="" src="">
+                     <img class="img-responsive" src="">
                   </a>
                 <?php endif; ?>
              <?php endforeach; ?>
