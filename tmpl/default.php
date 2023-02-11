@@ -48,7 +48,7 @@ $count = count($data);
                      <?php endif; ?>
                   </a>
                 <?php endif; ?>
-                <?php ?>
+                <?php if() ?>
              <?php endforeach; ?>
         </div>
     </div>
