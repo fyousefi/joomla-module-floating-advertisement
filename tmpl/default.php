@@ -48,7 +48,7 @@ $count = count($data);
                      <?php endif; ?>
                   </a>
                 <?php endif; ?>
-                <?php if(isset($value['script']) and !empty($value[])) ?>
+                <?php if(isset($value['script']) and !empty($value['script'])) ?>
              <?php endforeach; ?>
         </div>
     </div>
