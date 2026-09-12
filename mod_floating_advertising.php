@@ -1,37 +1,32 @@
 <?php
-  /**
-  * @package     Joomla.Site
-  * @subpackage  mod_floating_advertising
-  * @author      F.Yousefi
-  *
-  * @copyright   Copyright (C) AsiaSun.ir All rights reserved.
-  * @license     GNU General Public License version 2 or later
-  */
+/**
+ * @package    mod_floating_advertising
+ * @author     F.Yousefi - https://www.asiasun.ir
+ * @copyright  (C) 2026 AsiaSun.ir, Pvt. Ltd. All rights reserved
+ * @license    GNU/GPL http://www.gnu.org/copyleft/gpl.html
+ * @version    2.0.0
+ */
 
 defined('_JEXEC') or die;
+
+require_once __DIR__ . '/helper.php';
+
+if ($params->def('prepare_content', 0)) {
+	JPluginHelper::importPlugin('content');
+	$module->content = JHtml::_('content.prepare', $module->content, '', 'mod_floating_advertising.content');
+}
+
 $data = array();
-if($params->def('prepare_content', 1)){
-  JPluginHelper::importPlugin('content');
-  $module->content = JHtml::_('content.prepare', $module->content, '', 'mod_floating_ad.content');
-}
+$item = array(
+	'script' => trim((string) $params->get('banner_script', '')),
+	'image'  => modFloatingAdvertisingHelper::mediaPath($params->get('banner_image', '')),
+	'link'   => trim((string) $params->get('banner_link', '')),
+	'device' => $params->get('device_type', array()),
+);
+$data[] = $item;
 
-if($params->get('banner_script')){
-  $data[0][ 'script' ] = $params->get('banner_script');
-}
+$moduleclass_sfx = htmlspecialchars((string) $params->get('moduleclass_sfx', ''), ENT_COMPAT, 'UTF-8');
+$visibilityClass = modFloatingAdvertisingHelper::visibilityClass($item['device']);
+$backgroundImage = modFloatingAdvertisingHelper::mediaPath($params->get('backgroundimage', ''));
 
-if($params->get('banner_image')){
-  $data[0][ 'image' ] = $params->get('banner_image');
-}
-
-if($params->get('banner_link')){
-  $data[0][ 'link' ] = $params->get('banner_link');
-}
-
-if($params->get('device_type')){
-  $data[0][ 'device' ] = $params->get('device_type');
-}
-
-$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8'));
-
-require JModuleHelper::getLayoutPath('mod_floating_ad');
-?>
+require JModuleHelper::getLayoutPath('mod_floating_advertising', $params->get('layout', 'default'));

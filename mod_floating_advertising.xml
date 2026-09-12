@@ -1,79 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="3.1" client="site" method="upgrade">
+<extension type="module" version="3.0" client="site" method="upgrade">
 	<name>MOD_FLOATING_ADVERTISING</name>
-	<author>fyousefi</author>
-	<creationDate>April 2020</creationDate>
-	<copyright>Copyright (C) AsiaSun.ir All rights reserved.</copyright>
-	<license>Creative Commons Zero v1.0 Universal</license>
-	<authorEmail>support[[@]]asiasun.[[ir]]</authorEmail>
-	<authorUrl>www.asiasun.ir</authorUrl>
-	<version>1.0.0</version>
+	<author>F.Yousefi</author>
+	<authorEmail>asiasunnet@gmail.com</authorEmail>
+	<authorUrl>https://www.asiasun.ir</authorUrl>
+	<creationDate>2026-09-12</creationDate>
+	<copyright>(C) 2026 AsiaSun.ir, Pvt. Ltd. All rights reserved</copyright>
+	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+	<version>2.0.0</version>
 	<description>MOD_FLOATING_ADVERTISING_XML_DESCRIPTION</description>
+
 	<files>
 		<filename module="mod_floating_advertising">mod_floating_advertising.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>CHANGELOG.md</filename>
+		<filename>README.md</filename>
+		<filename>LICENSE</filename>
 		<folder>tmpl</folder>
+		<folder>language</folder>
 	</files>
-	<languages folder="language">
-		<language tag="en-GB">en-GB/en-GB.mod_floating_advertising.ini<language>
-		<language tag="en-GB">en-GB/en-GB.mod_floating_advertising.sys.ini</language>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_floating_advertising.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_floating_advertising.sys.ini</language>
+		<language tag="fa-IR">language/fa-IR/fa-IR.mod_floating_advertising.ini</language>
+		<language tag="fa-IR">language/fa-IR/fa-IR.mod_floating_advertising.sys.ini</language>
 	</languages>
+
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field 
-					name="spacer" 
-					type="spacer" 
-					label="If you have a banner script from an advertising agency select YES or create new custom banner"
-				/>
-				
 				<field
 					name="banner_type"
 					type="radio"
-					label="Do you have a script?"
-					description="MOD_FLOATING_ADVERTISING_FIELD_PREPARE_CONTENT_DESC"
+					label="MOD_FLOATING_ADVERTISING_FIELD_BANNER_TYPE_LABEL"
+					description="MOD_FLOATING_ADVERTISING_FIELD_BANNER_TYPE_DESC"
 					class="btn-group btn-group-yesno"
 					default="0"
 					filter="integer"
-					>
+				>
 					<option value="1">JYES</option>
-					<option vlaue="0">JNO</option>
+					<option value="0">JNO</option>
 				</field>
-				
+
 				<field
 					name="banner_script"
 					type="textarea"
-					label="Script"
-					description="If you have a banner script from an advertising agency."
-					rows="2"
+					label="MOD_FLOATING_ADVERTISING_FIELD_SCRIPT_LABEL"
+					description="MOD_FLOATING_ADVERTISING_FIELD_SCRIPT_DESC"
+					rows="4"
 					filter="raw"
 					showon="banner_type:1"
 				/>
-				
+
 				<field
 					name="banner_image"
 					type="media"
-					label="Image"
+					label="MOD_FLOATING_ADVERTISING_FIELD_IMAGE_LABEL"
 					directory="banners"
 					showon="banner_type:0"
 				/>
-				<field 
+
+				<field
 					name="banner_link"
 					type="url"
-					label="Link"
-					size="10"
-					validate="url"
-					showon="banner_type:0"        
+					label="MOD_FLOATING_ADVERTISING_FIELD_LINK_LABEL"
+					filter="url"
+					showon="banner_type:0"
 				/>
+
 				<field
 					name="device_type"
 					type="checkboxes"
-					label="Device Type"
-					description="Select which device can show banner"
+					label="MOD_FLOATING_ADVERTISING_FIELD_DEVICE_LABEL"
+					description="MOD_FLOATING_ADVERTISING_FIELD_DEVICE_DESC"
+					multiple="true"
 				>
-				<option value="phone">Phone</option>
-				<option value="tablet">Tablet</option>
+					<option value="phone">MOD_FLOATING_ADVERTISING_DEVICE_PHONE</option>
+					<option value="tablet">MOD_FLOATING_ADVERTISING_DEVICE_TABLET</option>
+					<option value="desktop">MOD_FLOATING_ADVERTISING_DEVICE_DESKTOP</option>
 				</field>
 			</fieldset>
+
 			<fieldset name="options" label="COM_MODULES_BASIC_FIELDSET_LABEL">
 				<field
 					name="prepare_content"
@@ -84,17 +93,18 @@
 					default="0"
 					filter="integer"
 				>
-				<option value="1">JYES</option>
-				<option value="0">JNO</option>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
 				</field>
+
 				<field
 					name="backgroundimage"
 					type="media"
 					label="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_LABEL"
 					description="MOD_FLOATING_ADVERTISING_FIELD_BACKGROUND_IMAGE_DESC"
-				>
-				<field />
+				/>
 			</fieldset>
+
 			<fieldset name="advanced">
 				<field
 					name="layout"
@@ -102,7 +112,7 @@
 					label="JFIELD_ALT_LAYOUT_LABEL"
 					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
 				/>
-        
+
 				<field
 					name="moduleclass_sfx"
 					type="textarea"
@@ -110,7 +120,7 @@
 					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
 					rows="3"
 				/>
-        
+
 				<field
 					name="cache"
 					type="list"
@@ -119,10 +129,10 @@
 					default="1"
 					filter="integer"
 				>
-				<option value="1">JGLOBAL_USE_GLOBAL</option>
-				<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
 				</field>
-        
+
 				<field
 					name="cache_time"
 					type="number"
@@ -131,15 +141,17 @@
 					default="900"
 					filter="integer"
 				/>
-        
+
 				<field
 					name="cachemode"
 					type="hidden"
 					default="static"
-				>
-				<option value="static"></option>
-				</field> 
+				/>
 			</fieldset>
 		</fields>
 	</config>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Floating Advertising Updates">https://www.asiasun.ir/updates/mod_floating_advertising.xml</server>
+	</updateservers>
 </extension>

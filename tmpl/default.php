@@ -1,55 +1,56 @@
 <?php
-  /**
-  * @package     Joomla.Site
-  * @subpackage  mod_floating_advertising
-  * @author      F.Yousefi
-  *
-  * @copyright   Copyright (C) AsiaSun.ir All rights reserved.
-  * @license     GNU General Public License version 2 or later
-  */
+/**
+ * @package    mod_floating_advertising
+ * @author     F.Yousefi - https://www.asiasun.ir
+ * @copyright  (C) 2026 AsiaSun.ir, Pvt. Ltd. All rights reserved
+ * @license    GNU/GPL http://www.gnu.org/copyleft/gpl.html
+ * @version    2.0.0
+ */
 
 defined('_JEXEC') or die;
-
-$count = count($data);
 ?>
-
-<script>
-    function adclose() {
-        var element = document.getElementById("floating");
-        element.remove("div #floating");
-    }
-</script>
-
 <style>
-    .floatingad {
-        position: fixed;
-        bottom: 0%;
-        width: 100%;
-        z-index: 1000;
-    }
+	.floatingad {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+	.floatingad .floatingad-close {
+		display: inline-block;
+		font-size: 12px;
+		background-color: #7e1a18;
+		color: #f1f3f5;
+		padding: 2px 8px;
+		cursor: pointer;
+		border: 0;
+	}
 </style>
-
+<script>
+	function adclose() {
+		var element = document.getElementById('floating');
+		if (element && element.parentNode) {
+			element.parentNode.removeChild(element);
+		}
+	}
+</script>
 <div class="row">
-    <div id="floating" class="floatingad <?php if(empty($params->get('device_type'))) echo "hidden-lg hidden-md hidden-sm hidden-xs";?>
-         <?php foreach($params->get('device_type') as $x => $x_value) {
-            if($x_value == 'tablet') echo "visible-sm-block ";
-            if($x_value == 'phone') echo "visible-xs-block ";
-         }?> <?php echo $moduleclass_sfx; ?>"
-         <?php if($params->get('backgroundimage')): ?>
-               style="background-image:url(<?php echo $params->get('backgroundimage');?>)"
-               <?php endif; ?>>
-        <div class="inner">
-             <span style="font-size: 10px; background-color: #7e1a18; color: #f1f3f5" onclick="adclose()" aria-hidden="true"><i class="fa fa-times-circle"><i>Close</span>
-             <?php foreach($data as $index=>$value): ?>
-                <?php if(isset($value['link']) and !empty($value['link']) ): ?>
-                  <a href="<?php echo $value['link']; ?>" target="_blank" rel="nofollow">
-                     <?php if(isset($value['image']) and !empty($value['image'])): ?>
-                         <img class="img-responsive" src="<?php echo $value['image']; ?>">
-                     <?php endif; ?>
-                  </a>
-                <?php endif; ?>
-                <?php if(isset($value['script']) and !empty($value['script'])) echo $value['script']; ?>
-             <?php endforeach; ?>
-        </div>
-    </div>
+	<div id="floating" class="floatingad<?php echo $visibilityClass ? ' ' . htmlspecialchars($visibilityClass, ENT_COMPAT, 'UTF-8') : ''; ?><?php echo $moduleclass_sfx ? ' ' . $moduleclass_sfx : ''; ?>"<?php echo $backgroundImage ? ' style="background-image:url(' . htmlspecialchars($backgroundImage, ENT_COMPAT, 'UTF-8') . ')"' : ''; ?>>
+		<div class="inner">
+			<button type="button" class="floatingad-close" onclick="adclose()" aria-label="Close">&times; Close</button>
+			<?php foreach ($data as $value) : ?>
+				<?php if (!empty($value['link']) && !empty($value['image'])) : ?>
+					<a href="<?php echo htmlspecialchars($value['link'], ENT_COMPAT, 'UTF-8'); ?>" target="_blank" rel="nofollow noopener">
+						<img class="img-responsive img-fluid" src="<?php echo htmlspecialchars($value['image'], ENT_COMPAT, 'UTF-8'); ?>" alt="">
+					</a>
+				<?php elseif (!empty($value['image'])) : ?>
+					<img class="img-responsive img-fluid" src="<?php echo htmlspecialchars($value['image'], ENT_COMPAT, 'UTF-8'); ?>" alt="">
+				<?php endif; ?>
+				<?php if (!empty($value['script'])) : ?>
+					<?php echo $value['script']; ?>
+				<?php endif; ?>
+			<?php endforeach; ?>
+		</div>
+	</div>
 </div>

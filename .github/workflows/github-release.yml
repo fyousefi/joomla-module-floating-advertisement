@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build install package
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          zip -r "mod_floating_advertising_${VERSION}.zip" \
+            mod_floating_advertising.php \
+            mod_floating_advertising.xml \
+            helper.php \
+            tmpl \
+            language \
+            CHANGELOG.md \
+            README.md \
+            LICENSE \
+            index.html
+          sha256sum "mod_floating_advertising_${VERSION}.zip" | tee hash.txt
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: mod_floating_advertising_*.zip
+          generate_release_notes: true
+          body_path: CHANGELOG.md
