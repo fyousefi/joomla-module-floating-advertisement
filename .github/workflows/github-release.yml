@@ -14,9 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build install package
+      - name: Build install package and release notes
         run: |
+          set -e
           VERSION="${GITHUB_REF_NAME#v}"
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+
           zip -r "mod_floating_advertising_${VERSION}.zip" \
             mod_floating_advertising.php \
             mod_floating_advertising.xml \
@@ -27,11 +30,24 @@ jobs:
             README.md \
             LICENSE \
             index.html
-          sha256sum "mod_floating_advertising_${VERSION}.zip" | tee hash.txt
+
+          python3 - << PY
+          import os, re, sys
+          version = os.environ["VERSION"]
+          text = open("CHANGELOG.md", encoding="utf-8").read()
+          pattern = rf"(## \[{re.escape(version)}\][\s\S]*?)(?=\n## \[|\Z)"
+          match = re.search(pattern, text)
+          if not match:
+              sys.stderr.write("No CHANGELOG section found for [%s]\n" % version)
+              sys.exit(1)
+          notes = match.group(1).strip() + "\n"
+          open("release-notes.md", "w", encoding="utf-8").write(notes)
+          print(notes)
+          PY
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: mod_floating_advertising_*.zip
-          generate_release_notes: true
-          body_path: CHANGELOG.md
+          files: mod_floating_advertising_${{ env.VERSION }}.zip
+          generate_release_notes: false
+          body_path: release-notes.md
